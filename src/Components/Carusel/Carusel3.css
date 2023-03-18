@@ -1,0 +1,44 @@
+.parent {
+    width: 30%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.bg-one   {background-image: url(https://olcha.uz/image/460x152/homePage/MMbGIGSFvtn3nhhdYDHlrjiGWDMVxz5Riq23BbEmgstQInvFZup5UefKB9hI.png);border-radius: 10}
+.bg-two   {background-image: url(https://olcha.uz/image/460x152/homePage/bukwcoFw13uz8yMNSXsVkzrbeV0PP3gAqiAceANKij55r1p6HF06x3XZ4ECc.png);border-radius: 10}
+.bg-three {background-image: url(https://olcha.uz/image/460x152/homePage/gWvKRjxqjJaomDUD9MPZrwNPBwDASj6ATUFP5H6nzuQW2F4b2txOpfxD1y7t.png);border-radius: 10}
+.bg-four {background-image: url(https://olcha.uz/image/1440x302/homePage/cUyfnTPw57GE5ose7zMDJoNqDWR8N7ZOJrZ1hkxFZKrXIgCzeA27CvadOCfz.png);border-radius: 10}
+.bg-five  {background-image: url(https://olcha.uz/image/460x152/homePage/DG7JnF6aMQXWuuBBbYFPuEPo1PnztF3iFLeHqGgqzNsSL1FjTKiPp4l5sevD.png);border-radius: 10}
+.bg-six   {background-image: url(https://olcha.uz/image/460x152/homePage/WZ71vVxLCgqhKz7a7vtiaLdISut8vrIhwak6DjHmcg6ljos6fJoonVlaYjvd.png);border-radius: 10}
+.bg-seven {background-image: url(https://olcha.uz/image/460x152/homePage/PaQ6Kk1wXYrFhTXbQrDAa8RHWN947wv6gFrwuVu9wnNv1mX6T3dt6zIZwAAJ.png);border-radius: 10}
+.bg-eight{background-image: url(https://olcha.uz/image/original/homePage/KR1TSSEiV7kJPvTn0sonb6qyiZ0PcxpkXzC658L6Mj7UL16MZfKLEqXfsjfc.png);border-radius: 10}
+.bg-nine {background-image: url(https://olcha.uz/image/original/homePage/oir7gB0LM517mxijISZWTNY8BRs27P7dUJF8bElEdtxY3YemQmRPoZJQIqAg.png);border-radius: 10}
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}

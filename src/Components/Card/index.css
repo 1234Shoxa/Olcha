@@ -1,0 +1,36 @@
+.parent {
+    width: 30%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.bg-ten   {background-image: url(https://olcha.uz/image/original/homePage/Oj6XTJbZpln4Yg1qNOkFu4MlGn0jpKeGaM3rgjA8Qt4i7aVOQDYWitENfQCy.png);border-radius: 10}
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}

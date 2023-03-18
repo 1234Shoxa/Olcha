@@ -1,0 +1,45 @@
+.brand {
+    background-color: rgb(242, 242, 242);
+}
+
+.brand .parent1 {
+    width: 30%;
+    height: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.brand .child1 {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+
+}
+.brand .bg-one1   {background-image: url(https://olcha.uz/image/128x128/category/SCaz0uerg7WUKCf6e1ezZ67Tw7OzYMliaAs8QTbPjn9E0R2mmyWyEIC1ErhQ.png);}
+.brand .bg-two1  {background-image: url(https://olcha.uz/image/128x128/category/Zzb97hGmwgC8EpGI3uVEwgdtvf4k9Wx404mtejcvF2qvbTSIA6HMben2CDJL.png);}
+.brand .parent1:hover .child1, .parent1:focus .child {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.brand .parent1:hover .child1:before, .parent1:focus .child1:before {
+    display: block;
+}
+
+.brand .parent1:hover a, .parent1:focus a {
+    display: block;
+}
+.red:hover {
+    color: red;
+}

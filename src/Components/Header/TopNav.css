@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-nav{
+    background-color: #DA002B;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: none;
+}
+.button-boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-boxs span{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.button-boxs span:hover{
+    color: rgba(255, 255, 255, 0.705);
+}
+.button-box{
+    width: 185px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #DA002B;
+    font-family: monospace;
+    font-size: 17px;
+}
+.button-box:hover{
+    background-color: rgba(255, 255, 255, 0.705);
+}
+.button-box1{
+    width: 117px;
+    height: 35px;
+    border: 2px solid #fff;
+    background-color: #DA002B;
+    border-radius: 10px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.button-box1:hover{
+    border: 2px solid rgba(255, 255, 255, 0.705);
+    color: rgba(255, 255, 255, 0.705);
+}
+.button-boxs2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-boxs2 h1{
+    font-size: 20px;
+    color: #fff;
+}
+.button-boxs2 h1:hover{
+    color: rgba(255, 255, 255, 0.705);
+}
+.button-boxs2 button{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #fff;
+    background-color: #DA002B;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.button-boxs2 button:hover{
+    background-color: #fff;
+    color: #DA002B;
+}
+.span-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EFB3C0;
+    margin-left: 25px;
+    font-family: sans-serif;
+    border-left: 1px solid #E54D6B;
+    border-right: 1px solid #E54D6B;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.span-box span{
+    margin: 15px;
+}
+.span-box span:hover{
+    color: #fff;
+}
+.TopNav-Left{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+@media(min-width:1200px){
+    .top-nav{
+        display: flex;
+    }
+}

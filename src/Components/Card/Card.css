@@ -1,0 +1,10 @@
+.ai{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-size:30px;
+    color:grey;
+    text-align: center;
+    margin-left:200px;
+}
